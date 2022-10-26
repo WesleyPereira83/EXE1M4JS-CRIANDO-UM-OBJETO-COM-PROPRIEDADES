@@ -9,7 +9,7 @@ let banco = {
 }
 
  function buscarSaldo (texto){
-  return ('(=) Saldo atual: ' + banco.saldo.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}).replace(',','.'))
+  return ('(=) Saldo atual: ' + banco.agencia.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}).replace(',','.'))
 } 
 
 
